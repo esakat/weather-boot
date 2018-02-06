@@ -11,10 +11,5 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class WeatherbootApplicationTests {
 
-	@Test
-	public void testCreateWeatherInfo() {
-		Weather weather = new Weather("晴れ");
-		assertEquals("晴れ", weather.getInfo());
-	}
 
 }
